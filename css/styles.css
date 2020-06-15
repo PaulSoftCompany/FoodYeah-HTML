@@ -1,0 +1,68 @@
+.loginbg {
+    background: url("../img/background/uni.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+.logoimg{
+    width: 20%;
+    margin: 24px 0 12px 0;
+}
+/* Full-width inputs */
+input[type=username], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border-width: 0 0 2px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    text-align: center;
+    font-family: loginfont, serif;
+    font-size: 30px;
+    color: white;
+}
+input:focus{
+    border-color: white;
+
+}
+::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'loginfont';
+    src: url("../font/loginfont.ttf");
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 0;
+    margin: 20px 0;
+    border: solid 3px grey;
+    cursor: pointer;
+    width: 20%;
+    font-family: loginfont, serif;
+    font-size: 30px ;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    border-color: white;
+}
+
+.container {
+    padding: 16px;
+    display: inline-block;
+    margin: 0 auto;
+}
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
